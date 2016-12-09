@@ -4,6 +4,7 @@
     <head>
         <meta charset="utf-8">
         <title>Home</title>
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
         <style>
             .img-circle {
                 border-radius: 50%;
@@ -15,7 +16,7 @@
             a {
             	text-decoration: none;
                 color: #cbd6d6;
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: 'Source Sans Pro', sans-serif;
                 font-style: normal;
                 font-weight: 400;
             }
@@ -30,18 +31,35 @@
 				margin: 1em 0;
 			}
 			#hello {
-				color: #e4e5e5;
+				color: #FFF;
 				font-weight: 100;
 				font-size: 30px;
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: 'Source Sans Pro', sans-serif;
                 font-style: normal;
                 background-color: #95a5a6;
                 height: 60px;
-                width: 600px;
+                width: 610px;
                 padding-top: 20px;
-                padding-left: 30px;
+                padding-left: 20px;
+			}
+			#message {
+				color: #2c3e50;
+				background-color: #ecf0f1;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-weight: 100;
+				padding: 30px;
+				height: 120px;
+				width: 460px;
+			}
+			#empty-box {
+				background-color: #7f8c8d;
+				height: 180px;
+				width: 110px;
 			}
         </style>
+        <link rel="icon" 
+			  type="image/ico" 
+			  href="file:///home/abhishek/Documents/abhishek-agrawal.in/favicon.ico">
     </head>
     <body>
     	<div STYLE="position:absolute; TOP:25px; LEFT:60px;">
@@ -65,7 +83,24 @@
 		    </div>
     	</div>
     	<div STYLE="position:absolute; TOP:25px; LEFT:400px;">
-    		<p id="hello">Hello! My name is abhishek.</p>
+    		<p id="hello">Hello! I'm Abhishek</p>
     	</div>
+    	<div STYLE="position:absolute; TOP:119px; LEFT:400px;">
+    		<p id="message">I’m a student living and studying in Indian Institute of Technology, Patna. I like IOT(Internet of Things), android app development, Web Development and Mathematics(specially Probability). I love working on my Arduino UNO. This site is made by me entirely on HTML, CSS and JavaScript.</p>
+    	</div>
+    	<div STYLE="position:absolute; TOP:119px; LEFT:920px;">
+    		<p id="empty-box">  </p>
+    	</div>
+    	<div id="map" style="position:absolute;TOP:119px;LEFT:1100px;width:230px;height:330px;background:#cbd6d6;padding=15px;"></div>
+		<script>
+			function myMap() {
+				var mapCanvas = document.getElementById("map");
+				var mapOptions = {
+					center: new google.maps.LatLng(25.5357523, 84.8510653), zoom: 12
+				};
+				var map = new google.maps.Map(mapCanvas, mapOptions);
+			}
+		</script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIB4fC2zPYMfJfE5IUWGfm9QI6BAIr6wc&callback=myMap"></script>
     </body>
 </html>
