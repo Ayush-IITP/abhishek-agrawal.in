@@ -20,13 +20,13 @@
 		    	<br>
 		        <a href="./home.html">HOME</a>
 		        <br><hr>
-		        <a target="_blank" href="https://aboutus201.wordpress.com/">BLOG</a>
-		        <br><hr>
 		        <a target="_blank" href="https://aboutus201.wordpress.com/">SKILLS</a>
 		        <br><hr>
 		        <a target="_blank" href="https://aboutus201.wordpress.com/">EDUCATION</a>
 		        <br><hr>
 		        <a target="_blank" href="https://aboutus201.wordpress.com/">PROJECTS</a>
+		        <br><hr>
+		        <a target="_blank" href="https://aboutus201.wordpress.com/">BLOG</a>
 		        <br><hr>
 		        <a target="_blank" href="https://aboutus201.wordpress.com/">CONTACTS</a>
 		        <br>
@@ -36,25 +36,15 @@
     	<div STYLE="position:absolute; LEFT:350px; TOP: 41px">
 			<p id="hello">Hello! I'm Abhishek</p>
 			<p id="message">I’m a student living and studying in Indian Institute of Technology, Patna. I like IOT(Internet of Things), android app development, Web Development and Mathematics(specially Probability). I love working on my Arduino UNO. This site is made by me entirely on HTML, CSS and JavaScript. I have taken some design inspiration from a wordpress template.</p>
-			<p id="empty-box">  </p>
+			<div id="empty-box"></div>
     	</div>
     	<!-- Left-most panel -->
     	<div STYLE="position:absolute; LEFT: 1085px; TOP: 70px">
     		<!-- Map -->
 			<div id="empty-box-2">
-				<p align="center" style="position: absolute; bottom: 0; left:0;padding-left:5px;">Indian Institute Of Technology, Patna</p>
+				<p style="position: absolute; bottom: 10px; left: 5px;margin: 0px;">Indian Institute Of Technology, Patna</p>
 			</div>
 			<div id="map" style="position:absolute;TOP:10px;LEFT:15px;width:230px;height:330px;background:#cbd6d6;padding=15px;"></div>
-			<script>
-				function myMap() {
-					var mapCanvas = document.getElementById("map");
-					var mapOptions = {
-						center: new google.maps.LatLng(25.5357523, 84.8510653), zoom: 12
-					};
-					var map = new google.maps.Map(mapCanvas, mapOptions);
-				}
-			</script>
-			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIB4fC2zPYMfJfE5IUWGfm9QI6BAIr6wc&callback=myMap"></script>
 			<!-- Social Box -->
 			<div STYLE="position:absolute; TOP:430px;">
 				<p id="social-1" align="center">SOCIAL</p>
@@ -70,6 +60,8 @@
 				</ul>
 			</div>
     	</div>
+        <script type="text/javascript" src="./main.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIB4fC2zPYMfJfE5IUWGfm9QI6BAIr6wc&callback=myMap"></script>
     </body>
 </html>
 
