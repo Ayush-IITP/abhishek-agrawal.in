@@ -5,58 +5,7 @@
         <meta charset="utf-8">
         <title>Home</title>
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-        <style>
-            .img-circle {
-                border-radius: 50%;
-                margin: 1em 0;
-            }
-            body {
-                background-color: #2c3e50;
-            }
-            a {
-            	text-decoration: none;
-                color: #cbd6d6;
-                font-family: 'Source Sans Pro', sans-serif;
-                font-style: normal;
-                font-weight: 400;
-            }
-			a:hover {
-				color: #95a5a6;
-			}
-			hr {
-				border: 0;
-				height: 3px;
-				background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(49, 70, 90, 1), rgba(0, 0, 0, 0));
-				border-color: #31465a;
-				margin: 1em 0;
-			}
-			#hello {
-				color: #FFF;
-				font-weight: 100;
-				font-size: 30px;
-                font-family: 'Source Sans Pro', sans-serif;
-                font-style: normal;
-                background-color: #95a5a6;
-                height: 60px;
-                width: 610px;
-                padding-top: 20px;
-                padding-left: 20px;
-			}
-			#message {
-				color: #2c3e50;
-				background-color: #ecf0f1;
-                font-family: 'Source Sans Pro', sans-serif;
-                font-weight: 100;
-				padding: 30px;
-				height: 120px;
-				width: 460px;
-			}
-			#empty-box {
-				background-color: #7f8c8d;
-				height: 180px;
-				width: 110px;
-			}
-        </style>
+        <link href="./style.css" rel="stylesheet"/>
         <link rel="icon" 
 			  type="image/ico" 
 			  href="file:///home/abhishek/Documents/abhishek-agrawal.in/favicon.ico">
@@ -91,7 +40,10 @@
     	<div STYLE="position:absolute; TOP:119px; LEFT:920px;">
     		<p id="empty-box">  </p>
     	</div>
-    	<div id="map" style="position:absolute;TOP:119px;LEFT:1100px;width:230px;height:330px;background:#cbd6d6;padding=15px;"></div>
+    	<div id="empty-box-2">
+    		<p align="center" style="position: absolute; bottom: 0; left:0;padding-left:5px;">Indian Institute Of Technology, Patna</p>
+    	</div>
+    	<div id="map" style="position:absolute;TOP:80px;LEFT:1100px;width:230px;height:330px;background:#cbd6d6;padding=15px;"></div>
 		<script>
 			function myMap() {
 				var mapCanvas = document.getElementById("map");
@@ -102,5 +54,21 @@
 			}
 		</script>
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIB4fC2zPYMfJfE5IUWGfm9QI6BAIr6wc&callback=myMap"></script>
+    	<div STYLE="position:absolute; TOP:500px; LEFT:1085px;">
+    		<p id="social-1" align="center">SOCIAL</p>
+    	</div>
+    	<div STYLE="position:absolute; TOP:538px; LEFT:1085px;">
+    		<p id="social-2">
+    			<a target="_blank" title="find us on Facebook" href="http://www.facebook.com/Abhishek.dev2.0"><img alt="follow me on facebook" src="http://login.create.net/images/icons/user/facebook_30x30.png" border=0></a>
+    		</p>
+    		<ul>
+    			<li>
+    			</li>
+    			<li><a title="View abhishek_dev2.0’s profile on Instagram" href="https://instagram.com/abhishek_dev2.0/" class="genericon genericon-instagram" target="_blank"><span class="screen-reader-text">View abhishek_dev2.0’s profile on Instagram</span></a></li>
+    			<li><a title="View abhishek-agrawal-6a7a69115’s profile on LinkedIn" href="https://www.linkedin.com/in/abhishek-agrawal-6a7a69115/" class="genericon genericon-linkedin" target="_blank"><span class="screen-reader-text">View abhishek-agrawal-6a7a69115’s profile on LinkedIn</span></a></li>
+    			<li><a title="View abhishek-dev2’s profile on GitHub" href="https://github.com/abhishek-dev2/" class="genericon genericon-github" target="_blank"><span class="screen-reader-text">View abhishek-dev2’s profile on GitHub</span></a></li>
+    			<li><a title="View 101660480446131600666’s profile on Google+" href="https://plus.google.com/u/0/101660480446131600666/" class="genericon genericon-googleplus" target="_blank"><span class="screen-reader-text">View 101660480446131600666’s profile on Google+</span></a></li>
+    		</ul>
+    	</div>
     </body>
 </html>
