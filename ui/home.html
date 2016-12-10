@@ -11,6 +11,7 @@
 			  href="file:///home/abhishek/Documents/abhishek-agrawal.in/favicon.ico">
     </head>
     <body>
+    	<!-- Right-most panel -->
     	<div STYLE="position:absolute; TOP:25px; LEFT:60px;">
 		    <div align="center">
 		        <img class="img-circle" src="https://pbs.twimg.com/profile_images/803705010252955649/7PuzfmIy.jpg" alt="My Picture" width="220px">
@@ -31,41 +32,44 @@
 		        <br>
 		    </div>
     	</div>
-    	<div STYLE="position:absolute; TOP:25px; LEFT:400px;">
-    		<p id="hello">Hello! I'm Abhishek</p>
+    	<!-- Middle panel -->
+    	<div STYLE="position:absolute; LEFT:350px; TOP: 41px">
+			<p id="hello">Hello! I'm Abhishek</p>
+			<p id="message">I’m a student living and studying in Indian Institute of Technology, Patna. I like IOT(Internet of Things), android app development, Web Development and Mathematics(specially Probability). I love working on my Arduino UNO. This site is made by me entirely on HTML, CSS and JavaScript. I have taken some design inspiration from a wordpress template.</p>
+			<p id="empty-box">  </p>
     	</div>
-    	<div STYLE="position:absolute; TOP:119px; LEFT:400px;">
-    		<p id="message">I’m a student living and studying in Indian Institute of Technology, Patna. I like IOT(Internet of Things), android app development, Web Development and Mathematics(specially Probability). I love working on my Arduino UNO. This site is made by me entirely on HTML, CSS and JavaScript. I have taken some design inspiration from a wordpress template.</p>
-    	</div>
-    	<div STYLE="position:absolute; TOP:119px; LEFT:920px;">
-    		<p id="empty-box">  </p>
-    	</div>
-    	<div id="empty-box-2">
-    		<p align="center" style="position: absolute; bottom: 0; left:0;padding-left:5px;">Indian Institute Of Technology, Patna</p>
-    	</div>
-    	<div id="map" style="position:absolute;TOP:80px;LEFT:1100px;width:230px;height:330px;background:#cbd6d6;padding=15px;"></div>
-		<script>
-			function myMap() {
-				var mapCanvas = document.getElementById("map");
-				var mapOptions = {
-					center: new google.maps.LatLng(25.5357523, 84.8510653), zoom: 12
-				};
-				var map = new google.maps.Map(mapCanvas, mapOptions);
-			}
-		</script>
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIB4fC2zPYMfJfE5IUWGfm9QI6BAIr6wc&callback=myMap"></script>
-    	<div STYLE="position:absolute; TOP:500px; LEFT:1085px;">
-    		<p id="social-1" align="center">SOCIAL</p>
-    	</div>
-    	<div id="inline-list" STYLE="position:absolute; TOP:538px; LEFT:1080px;">
-    		<ul>
-    			<li><a href="https://github.com/abhishek-dev2/"><img title="Github" alt="Github" src="../Github.svg" width="35" height="35" /></li>
-    			<li><a href="https://www.linkedin.com/in/abhishek-agrawal-6a7a69115"><img title="LinkedIn" alt="LinkedIn" src="../LinkedIN.svg" width="35" height="35"/></a>
-    			<li><a href="https://instagram.com/abhishek_dev2.0/"><img title="Instagram" alt="Instagram" src="../Instagram.svg" width="35" height="35" /></li>
-    			<li><a href="http://www.facebook.com/Abhishek.dev2.0"><img title="Facebook" alt="Facebook" src="../Facebook.svg" width="35" height="35" /></a></li>
-    			</li>
-    			<li><a href="https://plus.google.com/u/0/101660480446131600666/"><img title="Google+" alt="Google+" src="../Google.svg" width="35" height="35" /></li>
-    		</ul>
+    	<!-- Left-most panel -->
+    	<div STYLE="position:absolute; LEFT: 1085px; TOP: 70px">
+    		<!-- Map -->
+			<div id="empty-box-2">
+				<p align="center" style="position: absolute; bottom: 0; left:0;padding-left:5px;">Indian Institute Of Technology, Patna</p>
+			</div>
+			<div id="map" style="position:absolute;TOP:10px;LEFT:15px;width:230px;height:330px;background:#cbd6d6;padding=15px;"></div>
+			<script>
+				function myMap() {
+					var mapCanvas = document.getElementById("map");
+					var mapOptions = {
+						center: new google.maps.LatLng(25.5357523, 84.8510653), zoom: 12
+					};
+					var map = new google.maps.Map(mapCanvas, mapOptions);
+				}
+			</script>
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIB4fC2zPYMfJfE5IUWGfm9QI6BAIr6wc&callback=myMap"></script>
+			<!-- Social Box -->
+			<div STYLE="position:absolute; TOP:430px;">
+				<p id="social-1" align="center">SOCIAL</p>
+			</div>
+			<div align="center" id="inline-list" STYLE="position:absolute; TOP:485px;">
+				<ul>
+					<li><a target="_blank" href="https://github.com/abhishek-dev2/"><img title="Github" alt="Github" src="../Github.svg" width="35" height="35" /></li>
+					<li><a target="_blank" href="https://www.linkedin.com/in/abhishek-agrawal-6a7a69115"><img title="LinkedIn" alt="LinkedIn" src="../LinkedIN.svg" width="35" height="35"/></a>
+					<li><a target="_blank" href="https://instagram.com/abhishek_dev2.0/"><img title="Instagram" alt="Instagram" src="../Instagram.svg" width="35" height="35" /></li>
+					<li><a target="_blank" href="http://www.facebook.com/Abhishek.dev2.0"><img title="Facebook" alt="Facebook" src="../Facebook.svg" width="35" height="35" /></a></li>
+					</li>
+					<li><a target="_blank" href="https://plus.google.com/u/0/101660480446131600666/"><img title="Google+" alt="Google+" src="../Google.svg" width="35" height="35" /></li>
+				</ul>
+			</div>
     	</div>
     </body>
 </html>
+

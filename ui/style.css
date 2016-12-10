@@ -31,6 +31,7 @@ hr {
     background-color: #95a5a6;
     height: 60px;
     width: 610px;
+    margin: 0px;
     padding-top: 20px;
     padding-left: 20px;
 }
@@ -39,22 +40,25 @@ hr {
 	background-color: #ecf0f1;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 100;
+    margin: 0px;
 	padding: 30px;
 	height: 120px;
 	width: 460px;
 }
 #empty-box {
 	background-color: #7f8c8d;
-	height: 180px;
-	width: 110px;
+    margin: 0px;
+    position: absolute;
+    left: 520px;
+    top: 80px;
+	padding: 30px;
+	height: 120px;
+	width: 50px;
 }
 #empty-box-2 {
 	color: #2c3e50;
     font-family: 'Source Sans Pro', sans-serif;
 	background-color: #cbd6d6;
-	position: absolute;
-	top: 70px;
-	left: 1085px;
 	min-height: 380px;
 	width: 260px;
 }
@@ -73,9 +77,11 @@ hr {
 	width: 260px;
 }
 #inline-list {
+	background-color: #cbd6d6;
+	height: 50px;
+	width: 260px;
+	padding-top: 10px;
 	border: 0;
-	margin: 1em;
-	padding: 5px;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 #inline-list ul, #inline-list li {
