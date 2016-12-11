@@ -6,6 +6,8 @@
         <title>Home</title>
         <!-- Google Fonts from google APIs -->
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+		<!-- From http://www.codexworld.com/back-to-top-button-using-jquery-css/ -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <!-- Adding the CSS source -->
         <link href="./style.css" rel="stylesheet"/>
         <!-- Adding the Favicon -->
@@ -16,7 +18,7 @@
     <body>
     	<!-- Right-most panel -->
     	<div id="right-panel">
-			<img id="img-circle" src="https://pbs.twimg.com/profile_images/803705010252955649/7PuzfmIy.jpg" alt="My Picture" width="220px">
+			<img align="center" id="abhi-img" src="https://pbs.twimg.com/profile_images/803705010252955649/7PuzfmIy.jpg" alt="My Picture" width="220px">
 		    <div align="center">
 		    	<br>
 		        <a href="./home.html">HOME</a>
@@ -61,8 +63,11 @@
 				</ul>
 			</div>
     	</div>
+    	<a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+    	<div style="width:100px; height: 100px; background-color: red; position: absolute; top: 2000px;"></div>
     	<!-- Adding the JaveScript source -->
         <script type="text/javascript" src="./main.js"></script>
+        <!-- From w3schools.com and the key is from G-Suit for abhishek-agrawal.in -->
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIB4fC2zPYMfJfE5IUWGfm9QI6BAIr6wc&callback=myMap"></script>
     </body>
 </html>
