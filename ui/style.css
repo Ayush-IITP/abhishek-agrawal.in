@@ -26,10 +26,10 @@ body {
 a {
 	text-decoration: none;
     color: #cbd6d6;
+    font-weight: 400;
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
 	text-shadow: 1px 1px 1px #000;
-    font-weight: 400;
 }
 a:hover {
 	color: #95a5a6;
@@ -188,4 +188,25 @@ hr {
     width: 630px;
     margin: 0px;
     padding-top: 10px;
+}
+#contacts-2 {
+	color: #2c3e50;
+	background-color: #ecf0f1;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+	padding: 30px;
+	position: absolute;
+	top:2480px;
+	width: 460px;
+	height: 300px;
+}
+#contacts-3 {
+	background-color: #7f8c8d;
+	position: absolute;
+	left: 520px;
+	top: 2480px;
+	margin: 0px;
+	padding: 30px;
+	width: 50px;
+	height: 300px;
 }
