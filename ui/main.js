@@ -22,3 +22,38 @@ $(document).ready(function(){
         return false; 
     }); 
 });
+//Link of Home in hemberger menu
+$(document).ready(function(){
+    $('#home-click').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+//Link of Skills in hemberger menu
+$(document).ready(function(){
+    $('#skills-click').click(function(){ 
+        $("html, body").animate({ scrollTop: 600 }, 600); 
+        return false; 
+    }); 
+});
+//Link of Education in hemberger menu
+$(document).ready(function(){
+    $('#education-click').click(function(){ 
+        $("html, body").animate({ scrollTop: 1200 }, 600); 
+        return false; 
+    }); 
+});
+//Link of Projects in hemberger menu
+$(document).ready(function(){
+    $('#projects-click').click(function(){
+        $("html, body").animate({ scrollTop: 1800 }, 600); 
+        return false; 
+    }); 
+});
+//Link of Contacts in hemberger menu
+$(document).ready(function(){
+    $('#contacts-click').click(function(){
+        $("html, body").animate({ scrollTop: 2400 }, 600); 
+        return false; 
+    }); 
+});

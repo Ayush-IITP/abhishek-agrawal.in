@@ -10,6 +10,8 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <!-- Adding the CSS source -->
         <link href="./style.css" rel="stylesheet"/>
+        <link href="./scrollbar.css" rel="stylesheet"/>
+        <link href="./backtotop.css" rel="stylesheet"/>
         <!-- Adding the Favicon -->
         <link rel="icon" 
 			  type="image/ico" 
@@ -21,25 +23,45 @@
 			<img align="center" id="abhi-img" src="https://pbs.twimg.com/profile_images/803705010252955649/7PuzfmIy.jpg" alt="My Picture" width="220px">
 		    <div align="center">
 		    	<br>
-		        <a href="./home.html">HOME</a>
+		        <a id="home-click" href="">HOME</a>
 		        <br><hr>
-		        <a target="_blank" href="https://aboutus201.wordpress.com/">SKILLS</a>
+		        <a id="skills-click" href="">SKILLS</a>
 		        <br><hr>
-		        <a target="_blank" href="https://aboutus201.wordpress.com/">EDUCATION</a>
+		        <a id="education-click" href="">EDUCATION</a>
 		        <br><hr>
-		        <a target="_blank" href="https://aboutus201.wordpress.com/">PROJECTS</a>
+		        <a id="projects-click" href="">PROJECTS</a>
 		        <br><hr>
 		        <a target="_blank" href="https://aboutus201.wordpress.com/">BLOG</a>
 		        <br><hr>
-		        <a target="_blank" href="https://aboutus201.wordpress.com/">CONTACTS</a>
+		        <a id="contacts-click" href="">CONTACTS</a>
 		        <br>
 		    </div>
     	</div>
     	<!-- Middle panel -->
     	<div id="mid-panel">
+    		<!-- Home Box -->
 			<p id="hello">Hello! I'm Abhishek</p>
 			<p id="message">I’m a student living and studying in Indian Institute of Technology, Patna. I like IOT(Internet of Things), android app development, Web Development and Mathematics(specially Probability). I love working on my Arduino UNO. This site is made by me entirely on HTML, CSS and JavaScript. I have taken some design inspiration from a wordpress template.</p>
 			<div id="empty-box"></div>
+			<!-- Skills Box -->
+			<p align="center" id="skills-1">Skills</p>
+			<div align="center" id="skills-2">
+				<ul>
+					<li>C</li>
+					<li>Java</li><br><br>
+					<li>Python</li>
+					<li>HTML + CSS + JS</li><br><br>
+					<li>IOT</li>
+					<li>Arduino</li>
+				</ul>
+			</div>
+			<!-- Education Box -->
+			<p align="center" id="education-1">Education</p>
+			<!-- Projects Box -->
+			<p align="center" id="projects-1">Projects</p>
+			<!-- Contacts Box -->
+			<p align="center" id="contacts-1">Contacts</p>
+    		<div style="height: 20px; width: 20px;background-color: #2c3e50; position: absolute; top: 3000px;"></div>
     	</div>
     	<!-- Left-most panel -->
     	<div id="left-panel">
@@ -64,7 +86,6 @@
 			</div>
     	</div>
     	<a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
-    	<div style="width:100px; height: 100px; background-color: red; position: absolute; top: 2000px;"></div>
     	<!-- Adding the JaveScript source -->
         <script type="text/javascript" src="./main.js"></script>
         <!-- From w3schools.com and the key is from G-Suit for abhishek-agrawal.in -->
