@@ -35,6 +35,8 @@ a {
 a:hover {
 	color: #95a5a6;
 }
+/*From https://css-tricks.com/examples/hrs/*/
+/*Colors are changed from black*/
 hr {
 	border: 0;
 	height: 3px;
