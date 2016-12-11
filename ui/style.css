@@ -1,6 +1,24 @@
-.img-circle {
+/*Id for My profile pic*/
+#img-circle {
+	align: center;
     border-radius: 50%;
     margin: 1em 0;
+}
+/*Ids for all the different panels*/
+#right-panel {
+	position: absolute;
+	top: 25px;
+	left: 60px;
+}
+#mid-panel {
+	position: absolute;
+	top: 45px;
+	left: 350px;
+}
+#left-panel {
+	position: absolute;
+	top: 70px;
+	left: 1085px;
 }
 body {
 	position: relative;
@@ -11,6 +29,7 @@ a {
     color: #cbd6d6;
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
+	text-shadow: 1px 1px 1px #000;
     font-weight: 400;
 }
 a:hover {
@@ -23,6 +42,7 @@ hr {
 	border-color: #31465a;
 	margin: 1em 0;
 }
+/*Hello! I'm Abhishek paragraph has this Id*/
 #hello {
 	color: #FFF;
 	font-weight: 100;
@@ -56,7 +76,8 @@ hr {
 	height: 120px;
 	width: 50px;
 }
-#empty-box-2 {
+/*This is written just under the Map Attached*/
+#iit-patna-address {
 	color: #2c3e50;
 	text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
@@ -64,6 +85,7 @@ hr {
 	min-height: 380px;
 	width: 260px;
 }
+/*These boxes are those just under the Map attached*/
 #social-1 {
 	color: #FFF;
 	font-size: 15px;
@@ -78,6 +100,7 @@ hr {
 	height: 50px;
 	width: 260px;
 }
+/*These are for the social links attached*/
 #inline-list {
 	background-color: #cbd6d6;
 	height: 50px;

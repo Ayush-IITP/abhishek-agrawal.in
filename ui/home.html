@@ -4,18 +4,19 @@
     <head>
         <meta charset="utf-8">
         <title>Home</title>
+        <!-- Google Fonts from google APIs -->
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+        <!-- Adding the CSS source -->
         <link href="./style.css" rel="stylesheet"/>
+        <!-- Adding the Favicon -->
         <link rel="icon" 
 			  type="image/ico" 
 			  href="file:///home/abhishek/Documents/abhishek-agrawal.in/favicon.ico">
     </head>
     <body>
     	<!-- Right-most panel -->
-    	<div STYLE="position:absolute; TOP:25px; LEFT:60px;">
-		    <div align="center">
-		        <img class="img-circle" src="https://pbs.twimg.com/profile_images/803705010252955649/7PuzfmIy.jpg" alt="My Picture" width="220px">
-		    </div>
+    	<div id="right-panel">
+			<img id="img-circle" src="https://pbs.twimg.com/profile_images/803705010252955649/7PuzfmIy.jpg" alt="My Picture" width="220px">
 		    <div align="center">
 		    	<br>
 		        <a href="./home.html">HOME</a>
@@ -33,15 +34,15 @@
 		    </div>
     	</div>
     	<!-- Middle panel -->
-    	<div STYLE="position:absolute; LEFT:350px; TOP: 41px">
+    	<div id="mid-panel">
 			<p id="hello">Hello! I'm Abhishek</p>
 			<p id="message">I’m a student living and studying in Indian Institute of Technology, Patna. I like IOT(Internet of Things), android app development, Web Development and Mathematics(specially Probability). I love working on my Arduino UNO. This site is made by me entirely on HTML, CSS and JavaScript. I have taken some design inspiration from a wordpress template.</p>
 			<div id="empty-box"></div>
     	</div>
     	<!-- Left-most panel -->
-    	<div STYLE="position:absolute; LEFT: 1085px; TOP: 70px">
+    	<div id="left-panel">
     		<!-- Map -->
-			<div id="empty-box-2">
+			<div id="iit-patna-address">
 				<p style="position: absolute; bottom: 10px; left: 5px;margin: 0px;">Indian Institute Of Technology, Patna</p>
 			</div>
 			<div id="map" style="position:absolute;TOP:10px;LEFT:15px;width:230px;height:330px;background:#cbd6d6;padding=15px;"></div>
@@ -60,6 +61,7 @@
 				</ul>
 			</div>
     	</div>
+    	<!-- Adding the JaveScript source -->
         <script type="text/javascript" src="./main.js"></script>
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIB4fC2zPYMfJfE5IUWGfm9QI6BAIr6wc&callback=myMap"></script>
     </body>
