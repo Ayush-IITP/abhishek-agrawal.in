@@ -186,12 +186,45 @@ hr {
 #education-2 {
 	background-color: #7f8c8d;
 	position: absolute;
-	left: 520px;
+	left: 550px;
 	top: 1280px;
 	margin: 0px;
 	padding: 30px;
-	width: 50px;
-	height: 250px;
+	width: 20px;
+	height: 350px;
+}
+#education-3 {
+	position: absolute;
+	top: 1280px;
+	color: #2c3e50;
+	background-color: #ecf0f1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100;
+    margin: 0px;
+	padding: 30px;
+	height: 350px;
+	width: 200px;
+}
+#education-4 {
+	position: absolute;
+	top: 1280px;
+	left: 260px;
+	color: #2c3e50;
+	background-color: #ecf0f1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100;
+    margin: 0px;
+	padding-top: 30px;
+	height: 380px;
+	width: 290px;
+}
+#education-3 p {
+	width: 200px;
+	margin: 0px;
+}
+#education-4 p {
+	width: 260px;
+	margin: 0px;
 }
 #projects-1 {
 	position: absolute;
