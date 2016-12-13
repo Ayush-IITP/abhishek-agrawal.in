@@ -306,7 +306,7 @@ hr {
 	position: absolute;
 	top:2480px;
 	width: 460px;
-	height: 250px;
+	height: 280px;
 }
 #contacts-3 {
 	background-color: #7f8c8d;
@@ -316,5 +316,12 @@ hr {
 	margin: 0px;
 	padding: 30px;
 	width: 50px;
-	height: 250px;
+	height: 280px;
+}
+p a {
+	text-shadow: 0px 0px 0px #000;
+	color: #0B0080;
+}
+p a:hover {
+	color: #0B0080;
 }
