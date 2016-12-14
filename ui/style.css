@@ -98,25 +98,19 @@ hr {
 	padding-top: 10px;
 	margin: 0px;
 }
-#social-2 {
-	background-color: #cbd6d6;
-	height: 50px;
-	width: 260px;
-	margin: 0px;
-}
 /*These are for the social links attached*/
 #inline-list {
 	background-color: #cbd6d6;
 	height: 50px;
 	width: 260px;
-	padding-top: 10px;
+	padding-top: 15px;
 	border: 0;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 #inline-list ul, #inline-list li {
 	display: inline;
 	margin: 0;
-	padding: 4px;
+	padding: 5px;
 	color: #339;
 	font-weight: bold;
 }
