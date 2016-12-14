@@ -9,7 +9,7 @@
         <title>Abhishek Agrawal</title>
         <!-- Google Fonts from google APIs -->
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-		<!-- From http://www.codexworld.com/back-to-top-button-using-jquery-css/ -->
+		<!-- From http://www.codexworld.com/back-to-top-button-using-jquery-css/ for BacToTop scroll-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <!-- Adding the CSS source -->
         <link href="./ui/style.css" rel="stylesheet"/>
@@ -39,8 +39,10 @@
     	<div id="mid-panel">
     		<!-- Home Box -->
 			<p id="hello">Hello! I'm Abhishek</p>
-			<p id="message">I’m a student living and studying in Indian Institute of Technology, Patna. I like IOT(Internet of Things), android app development, Web Development and Mathematics(specially Probability). I love working on my Arduino UNO.<br>This site is made by me entirely on HTML, CSS and JavaScript. I have taken some design inspiration from a wordpress template and it is not ready for mobile viewing.<br>For blogging, I took the help of external website because tools available outside are really great and I will not be able to recreate them.<br>The favicon at the top of this page's tab, looks like a pokemon, is actually one of the avatars from KhanAcademy Website. I wanted to show gratitude to them and to Pamela Fox, so I took it from them. Great way to thank, right!</p>
-			<div id="empty-box"></div>
+			<div style="height: 280px;">
+				<p id="message">I’m a student living and studying in Indian Institute of Technology, Patna. I like IOT(Internet of Things), android app development, Web Development and Mathematics(specially Probability). I love working on my Arduino UNO.<br>This site is made by me entirely on HTML, CSS and JavaScript. I have taken some design inspiration from a wordpress template and it is not ready for mobile viewing.<br>For blogging, I took the help of external website because tools available outside are really great and I will not be able to recreate them.<br>The favicon at the top of this page's tab, looks like a pokemon, is actually one of the avatars from KhanAcademy Website. I wanted to show gratitude to them and to Pamela Fox, so I took it from them. Great way to thank, right!</p>
+				<div id="empty-box"></div>
+			</div>
 			<!-- Skills Box -->
 			<p align="center" id="skills-1">Skills</p>
 			<div align="center" id="skills-2">
@@ -99,9 +101,9 @@
 			<div id="iit-patna-address">
 				<p style="position: absolute; bottom: 10px; left: 5px;margin: 0px;">Indian Institute Of Technology, Patna</p>
 			</div>
-			<div id="map" style="position:absolute;TOP:10px;LEFT:15px;width:230px;height:330px;background:#cbd6d6;padding=15px;"></div>
+			<div id="map" style="position:absolute;TOP:10px;LEFT:15px;width:230px;height:330px;background-color:#cbd6d6;padding=15px;"></div>
 			<!-- Social Box -->
-			<div STYLE="position:absolute; TOP:430px;">
+			<div STYLE="position:absolute; TOP:445px;">
 				<p id="social-1" align="center">SOCIAL</p>
 			</div>
 			<div align="center" id="inline-list" STYLE="position:absolute; TOP:485px;">
@@ -115,8 +117,9 @@
 				</ul>
 			</div>
     	</div>
+    	<!-- http://www.codexworld.com/back-to-top-button-using-jquery-css/ for BackToTop scroll -->
     	<a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
-    	<!-- Adding the JaveScript source -->
+    	<!-- Adding the JaveScript source from main.js-->
         <script type="text/javascript" src="./ui/main.js"></script>
         <!-- From w3schools.com and the key is from G-Suit for abhishek-agrawal.in -->
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIB4fC2zPYMfJfE5IUWGfm9QI6BAIr6wc&callback=myMap"></script>
