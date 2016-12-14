@@ -1,324 +1,340 @@
-/*Id for My profile pic*/
-#abhi-img {
-    border-radius: 50%;
-    margin: 1em 0;
+@media screen and (min-width: 980px) {
+	/*Id for My profile pic*/
+	#abhi-img {
+		border-radius: 50%;
+		margin: 1em 0;
+	}
+	/*Ids for all the different panels*/
+	#right-panel {
+		position: fixed;
+		top: 25px;
+		left: 60px;
+	}
+	#mid-panel {
+		position: absolute;
+		top: 45px;
+		left: 350px;
+	}
+	#left-panel {
+		position: fixed;
+		top: 55px;
+		left: 1085px;
+	}
+	body {
+		position: relative;
+		background-color: #2c3e50;
+	}
+	a {
+		text-decoration: none;
+		color: #cbd6d6;
+		font-weight: 400;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-style: normal;
+		text-shadow: 1px 1px 1px #000;
+	}
+	a:hover {
+		color: #95a5a6;
+	}
+	/*From https://css-tricks.com/examples/hrs/*/
+	/*Colors are changed from black*/
+	hr {
+		border: 0;
+		height: 3px;
+		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(49, 70, 90, 1), rgba(0, 0, 0, 0));
+		border-color: #31465a;
+		margin: 1em 0;
+	}
+	/*Hello! I'm Abhishek paragraph has this Id*/
+	#hello {
+		color: #e4e5e5;
+		font-weight: 100;
+		font-size: 30px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-style: normal;
+		background-color: #95a5a6;
+		height: 60px;
+		width: 610px;
+		margin: 0px;
+		padding-top: 20px;
+		padding-left: 20px;
+	}
+	/*height of message and empty-box depends on the div they are contained inside*/
+	#message {
+		color: #2c3e50;
+		background-color: #ecf0f1;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 100;
+		margin: 0px;
+		padding: 20px 30px 30px 30px;
+		width: 460px;
+	}
+	#empty-box {
+		background-color: #7f8c8d;
+		margin: 0px;
+		position: absolute;
+		left: 520px;
+		top: 80px;
+		padding: 20px 30px 30px 30px;
+		height: inherit;
+		width: 50px;
+	}
+	/*This is written just under the Map Attached*/
+	#iit-patna-address {
+		color: #2c3e50;
+		text-align: center;
+		font-family: 'Source Sans Pro', sans-serif;
+		background-color: #cbd6d6;
+		min-height: 380px;
+		width: 260px;
+		margin: 0px;
+	}
+	/*These boxes are those just under the Map attached*/
+	#social-1 {
+		color: #FFF;
+		font-size: 15px;
+		font-family: 'Source Sans Pro', sans-serif;
+		background-color: #95a5a6;
+		height: 30px;
+		width: 260px;
+		padding-top: 10px;
+		margin: 0px;
+	}
+	/*These are for the social links attached*/
+	#inline-list {
+		background-color: #cbd6d6;
+		height: 50px;
+		width: 260px;
+		padding-top: 15px;
+		border: 0;
+		font-family: 'Source Sans Pro', sans-serif;
+	}
+	#inline-list ul, #inline-list li {
+		display: inline;
+		margin: 0;
+		padding: 5px;
+		color: #339;
+		font-weight: bold;
+	}
+	#skills-1 {
+		position: absolute;
+		top: 620px;
+		color: #FFF;
+		font-weight: 100;
+		font-size: 30px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-style: normal;
+		background-color: #95a5a6;
+		height: 50px;
+		width: 630px;
+		margin: 0px;
+		padding-top: 10px;
+	}
+	#skills-2 {
+		position: absolute;
+		left: 0px;
+		top: 680px;
+		margin: 0px;
+		width: 315px;
+		background-color: #ecf0f1;
+		font-weight: 100;
+		color: #2c3e50;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		font-family: 'Source Sans Pro', sans-serif;
+	}
+	#skills-3 {
+		position: absolute;
+		top: 680px;
+		left: 315px;
+		margin: 0px;
+		width: 315px;
+		background-color: #ecf0f1;
+		font-weight: 100;
+		color: #2c3e50;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		font-family: 'Source Sans Pro', sans-serif;
+	}
+	#skills-2 p {
+		padding-top: 10px;
+		width: 200px;
+		height: 30px;
+		background-color: #95a5a6;
+	}
+	#skills-3 p {
+		padding-top: 10px;
+		width: 200px;
+		height: 30px;
+		background-color: #95a5a6;
+	}
+	#education-1 {
+		position: absolute;
+		top: 1220px;
+		color: #FFF;
+		font-weight: 100;
+		font-size: 30px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-style: normal;
+		background-color: #95a5a6;
+		height: 50px;
+		width: 630px;
+		margin: 0px;
+		padding-top: 10px;
+	}
+	#education-2 {
+		background-color: #7f8c8d;
+		position: absolute;
+		left: 550px;
+		top: 1280px;
+		margin: 0px;
+		padding: 30px;
+		width: 20px;
+		height: 350px;
+	}
+	#education-3 {
+		position: absolute;
+		top: 1280px;
+		color: #2c3e50;
+		background-color: #ecf0f1;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 100;
+		margin: 0px;
+		padding: 30px;
+		height: 350px;
+		width: 200px;
+	}
+	#education-4 {
+		position: absolute;
+		top: 1280px;
+		left: 260px;
+		color: #2c3e50;
+		background-color: #ecf0f1;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 100;
+		margin: 0px;
+		padding-top: 30px;
+		height: 380px;
+		width: 290px;
+	}
+	#education-3 p {
+		width: 200px;
+		margin: 0px;
+	}
+	#education-4 p {
+		width: 260px;
+		margin: 0px;
+	}
+	#projects-1 {
+		position: absolute;
+		top: 1820px;
+		color: #FFF;
+		font-weight: 100;
+		font-size: 30px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-style: normal;
+		background-color: #95a5a6;
+		height: 50px;
+		width: 630px;
+		margin: 0px;
+		padding-top: 10px;
+	}
+	#projects-2 {
+		background-color: #7f8c8d;
+		position: absolute;
+		left: 550px;
+		top: 1880px;
+		margin: 0px;
+		padding: 30px;
+		width: 20px;
+		height: 370px;
+	}
+	#projects-3 {
+		position: absolute;
+		top: 1880px;
+		color: #2c3e50;
+		background-color: #ecf0f1;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 100;
+		margin: 0px;
+		padding: 30px;
+		height: 370px;
+		width: 200px;
+	}
+	#projects-4 {
+		position: absolute;
+		top: 1880px;
+		left: 260px;
+		color: #2c3e50;
+		background-color: #ecf0f1;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 100;
+		margin: 0px;
+		padding-top: 30px;
+		height: 400px;
+		width: 290px;
+	}
+	#projects-3 p {
+		width: 200px;
+		margin: 0px;
+	}
+	#projects-4 p {
+		width: 260px;
+		margin: 0px;
+	}
+	#contacts-1 {
+		position: absolute;
+		top: 2420px;
+		color: #FFF;
+		font-weight: 100;
+		font-size: 30px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-style: normal;
+		background-color: #95a5a6;
+		height: 50px;
+		width: 630px;
+		margin: 0px;
+		padding-top: 10px;
+	}
+	#contacts-2 {
+		color: #2c3e50;
+		background-color: #ecf0f1;
+		font-family: 'Source Sans Pro', sans-serif;
+		margin: 0px;
+		padding: 30px;
+		position: absolute;
+		top:2480px;
+		width: 460px;
+		height: 280px;
+	}
+	#contacts-3 {
+		background-color: #7f8c8d;
+		position: absolute;
+		left: 520px;
+		top: 2480px;
+		margin: 0px;
+		padding: 30px;
+		width: 50px;
+		height: 280px;
+	}
+	p a {
+		text-shadow: 0px 0px 0px #000;
+		color: #0B0080;
+	}
+	p a:hover {
+		color: #0B0080;
+	}
 }
-/*Ids for all the different panels*/
-#right-panel {
-	position: fixed;
-	top: 25px;
-	left: 60px;
-}
-#mid-panel {
-	position: absolute;
-	top: 45px;
-	left: 350px;
-}
-#left-panel {
-	position: fixed;
-	top: 55px;
-	left: 1085px;
-}
-body {
-	position: relative;
+@media print {
+  body {
     background-color: #2c3e50;
-}
-a {
-	text-decoration: none;
-    color: #cbd6d6;
-    font-weight: 400;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
-	text-shadow: 1px 1px 1px #000;
-}
-a:hover {
-	color: #95a5a6;
-}
-/*From https://css-tricks.com/examples/hrs/*/
-/*Colors are changed from black*/
-hr {
-	border: 0;
-	height: 3px;
-	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(49, 70, 90, 1), rgba(0, 0, 0, 0));
-	border-color: #31465a;
-	margin: 1em 0;
-}
-/*Hello! I'm Abhishek paragraph has this Id*/
-#hello {
-	color: #e4e5e5;
-	font-weight: 100;
-	font-size: 30px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
-    background-color: #95a5a6;
-    height: 60px;
-    width: 610px;
-    margin: 0px;
-    padding-top: 20px;
-    padding-left: 20px;
-}
-/*height of message and empty-box depends on the div they are contained inside*/
-#message {
-	color: #2c3e50;
-	background-color: #ecf0f1;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 100;
-    margin: 0px;
-	padding: 20px 30px 30px 30px;
-	width: 460px;
-}
-#empty-box {
-	background-color: #7f8c8d;
-    margin: 0px;
-    position: absolute;
-    left: 520px;
-    top: 80px;
-	padding: 20px 30px 30px 30px;
-	height: inherit;
-	width: 50px;
-}
-/*This is written just under the Map Attached*/
-#iit-patna-address {
-	color: #2c3e50;
-	text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
-	background-color: #cbd6d6;
-	min-height: 380px;
-	width: 260px;
-	margin: 0px;
-}
-/*These boxes are those just under the Map attached*/
-#social-1 {
-	color: #FFF;
-	font-size: 15px;
-    font-family: 'Source Sans Pro', sans-serif;
-	background-color: #95a5a6;
-	height: 30px;
-	width: 260px;
-	padding-top: 10px;
-	margin: 0px;
-}
-/*These are for the social links attached*/
-#inline-list {
-	background-color: #cbd6d6;
-	height: 50px;
-	width: 260px;
-	padding-top: 15px;
-	border: 0;
-	font-family: 'Source Sans Pro', sans-serif;
-}
-#inline-list ul, #inline-list li {
-	display: inline;
-	margin: 0;
-	padding: 5px;
-	color: #339;
-	font-weight: bold;
-}
-#skills-1 {
-	position: absolute;
-	top: 620px;
-	color: #FFF;
-	font-weight: 100;
-	font-size: 30px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
-    background-color: #95a5a6;
-    height: 50px;
-    width: 630px;
-    margin: 0px;
-    padding-top: 10px;
-}
-#skills-2 {
-	position: absolute;
-	left: 0px;
-	top: 680px;
-	margin: 0px;
-	width: 315px;
-	background-color: #ecf0f1;
-	font-weight: 100;
-	color: #2c3e50;
-	padding-top: 20px;
-	padding-bottom: 20px;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-#skills-3 {
-	position: absolute;
-	top: 680px;
-	left: 315px;
-	margin: 0px;
-	width: 315px;
-	background-color: #ecf0f1;
-	font-weight: 100;
-	color: #2c3e50;
-	padding-top: 20px;
-	padding-bottom: 20px;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-#skills-2 p {
-	padding-top: 10px;
-	width: 200px;
-	height: 30px;
-	background-color: #95a5a6;
-}
-#skills-3 p {
-	padding-top: 10px;
-	width: 200px;
-	height: 30px;
-	background-color: #95a5a6;
-}
-#education-1 {
-	position: absolute;
-	top: 1220px;
-	color: #FFF;
-	font-weight: 100;
-	font-size: 30px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
-    background-color: #95a5a6;
-    height: 50px;
-    width: 630px;
-    margin: 0px;
-    padding-top: 10px;
-}
-#education-2 {
-	background-color: #7f8c8d;
-	position: absolute;
-	left: 550px;
-	top: 1280px;
-	margin: 0px;
-	padding: 30px;
-	width: 20px;
-	height: 350px;
-}
-#education-3 {
-	position: absolute;
-	top: 1280px;
-	color: #2c3e50;
-	background-color: #ecf0f1;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 100;
-    margin: 0px;
-	padding: 30px;
-	height: 350px;
-	width: 200px;
-}
-#education-4 {
-	position: absolute;
-	top: 1280px;
-	left: 260px;
-	color: #2c3e50;
-	background-color: #ecf0f1;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 100;
-    margin: 0px;
-	padding-top: 30px;
-	height: 380px;
-	width: 290px;
-}
-#education-3 p {
-	width: 200px;
-	margin: 0px;
-}
-#education-4 p {
-	width: 260px;
-	margin: 0px;
-}
-#projects-1 {
-	position: absolute;
-	top: 1820px;
-	color: #FFF;
-	font-weight: 100;
-	font-size: 30px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
-    background-color: #95a5a6;
-    height: 50px;
-    width: 630px;
-    margin: 0px;
-    padding-top: 10px;
-}
-#projects-2 {
-	background-color: #7f8c8d;
-	position: absolute;
-	left: 550px;
-	top: 1880px;
-	margin: 0px;
-	padding: 30px;
-	width: 20px;
-	height: 370px;
-}
-#projects-3 {
-	position: absolute;
-	top: 1880px;
-	color: #2c3e50;
-	background-color: #ecf0f1;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 100;
-    margin: 0px;
-	padding: 30px;
-	height: 370px;
-	width: 200px;
-}
-#projects-4 {
-	position: absolute;
-	top: 1880px;
-	left: 260px;
-	color: #2c3e50;
-	background-color: #ecf0f1;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 100;
-    margin: 0px;
-	padding-top: 30px;
-	height: 400px;
-	width: 290px;
-}
-#projects-3 p {
-	width: 200px;
-	margin: 0px;
-}
-#projects-4 p {
-	width: 260px;
-	margin: 0px;
-}
-#contacts-1 {
-	position: absolute;
-	top: 2420px;
-	color: #FFF;
-	font-weight: 100;
-	font-size: 30px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
-    background-color: #95a5a6;
-    height: 50px;
-    width: 630px;
-    margin: 0px;
-    padding-top: 10px;
-}
-#contacts-2 {
-	color: #2c3e50;
-	background-color: #ecf0f1;
-    font-family: 'Source Sans Pro', sans-serif;
-    margin: 0px;
-	padding: 30px;
-	position: absolute;
-	top:2480px;
-	width: 460px;
-	height: 280px;
-}
-#contacts-3 {
-	background-color: #7f8c8d;
-	position: absolute;
-	left: 520px;
-	top: 2480px;
-	margin: 0px;
-	padding: 30px;
-	width: 50px;
-	height: 280px;
-}
-p a {
-	text-shadow: 0px 0px 0px #000;
-	color: #0B0080;
-}
-p a:hover {
-	color: #0B0080;
+  }
+
+  #header, #footer {
+    display: none;
+  }
+
+  .section {
+    page-break-inside: avoid;
+    page-break-after: always;
+  }
 }
