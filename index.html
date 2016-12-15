@@ -11,6 +11,8 @@
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 		<!-- From http://www.codexworld.com/back-to-top-button-using-jquery-css/ for BacToTop scroll-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Stylesheet for printing -->
+        <link href="./ui/print.css" media="print" rel="stylesheet"/>
         <!-- Adding the CSS source -->
         <link href="./ui/style.css" rel="stylesheet"/>
         <link href="./ui/scrollbar.css" rel="stylesheet"/>
@@ -24,7 +26,7 @@
     	<!-- Right-most panel -->
     	<div id="right-panel">
 			<img align="center" id="abhi-img" src="https://pbs.twimg.com/profile_images/803705010252955649/7PuzfmIy.jpg" alt="My Picture" width="220px">
-		    <div align="center">
+		    <div align="center" id="nav">
 		    	<br>
 		        <a id="home-click" href="">HOME</a><br><hr>
 		        <a id="skills-click" href="">SKILLS</a><br><hr>
@@ -49,6 +51,7 @@
 				<p>C</p><br>
 				<p>Python</p><br>
 				<p>Android App Development</p>
+				<br>
 			</div>
 			<div align="center" id="skills-3">
 				<p>Java</p><br>

@@ -1,0 +1,77 @@
+@media print {
+	/*Id for My profile pic*/
+	#abhi-img {
+		border-radius: 50%;
+		margin: 1em 0;
+	}
+	body {
+		background: #2c3e50;
+	}
+	#header, #footer {
+		display: none;
+	}
+	#nav {
+		display: none;
+	}
+	#map {
+		display: none;
+	}
+	#iit-patna-address {
+		display: none;
+	}
+	#social-1,#inline-list {
+		display: none;
+	}
+	#skills-1 {
+		position: relative;
+		top: 30px;
+		left: 0px;
+		margin: 0px;
+		height: auto;
+		width: auto;
+		font-family: 'Source Sans Pro', sans-serif;
+		text-align: left;
+		font-style: bold;
+		font-size: 30px;
+	}
+	#skills-2 {
+		position: relative;
+		top: 30px;
+		left: 0px;
+		font-family: 'Source Sans Pro', sans-serif;
+		text-align: left;
+		padding: 0px 0px 0px 0px;
+		margin: 0px 0px 0px 0px;
+	}
+	#skills-3 {
+		position: relative;
+		top: 30px;
+		left: 0px;
+		font-family: 'Source Sans Pro', sans-serif;
+		text-align: left;
+		padding: 0px 0px 0px 0px;
+		margin: 0px 0px 0px 0px;
+	}
+	#skills-2 p {
+		padding-left: 20px;
+		padding-top: 0px;
+		margin: 0px;
+	}
+	#skills-3 p {
+		padding-left: 20px;
+		padding-top: 0px;
+		margin: 0px;
+	}
+	#education-1 {
+		display: none;
+	}
+	#education-2 {
+		display: none;
+	}
+	#education-3 {
+		display: none;
+	}
+	#education-4 {
+		display: none;
+	}
+}
