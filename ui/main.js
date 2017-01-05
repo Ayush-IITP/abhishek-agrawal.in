@@ -1,6 +1,23 @@
 //This API is for the google map attached rom w3schools.com
 //API key is taken from G-suit for abhishek-agrawal.in
 //API key is in the JaveScript Source in the html file
+$(document).ready(function() {
+	$("#first-buttton").click(function(){
+		alert('hello');
+	});
+	$("#second-buttton").click(function(){
+		alert('You are doing great.');
+	});
+	$("#third-buttton").click(function(){
+		alert("I'm totally judging you now.");
+	});
+	$("#click-me-buttton").click(function(){
+		alert('Atta Boy!');
+	});
+	$("#banana-buttton").click(function(){
+		alert('Banana what?');
+	});
+});
 function myMap() {
 	var mapCanvas = document.getElementById("map");
 	var mapOptions = {
